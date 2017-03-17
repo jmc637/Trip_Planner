@@ -18,6 +18,7 @@ app.use('/js', express.static(path.join(__dirname , '/node_modules/jquery/dist')
 app.use('/js', express.static(path.join(__dirname ,'/node_modules/bootstrap/dist/js'))); 
 // Integrating our css
 app.use('/css', express.static(path.join(__dirname ,'/public/stylesheets/')));
+app.use('/images', express.static(path.join(__dirname ,'/public/images/')));
 
 
 // Nunjucks configuration

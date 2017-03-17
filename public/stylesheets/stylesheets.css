@@ -1,3 +1,27 @@
 body {
   padding-top: 50px;
-  padding-bottom: 20px; }
+  padding-bottom: 20px; 
+}
+
+.main-content{
+	margin: 0 auto;
+	float: none;
+}
+
+.sidebar {
+	border: 1px solid #241d8e;
+	color: #fff;
+	padding:  15px
+}
+
+.top-container, .bottom-container{
+   background-color: #241d8e;
+   padding: 10px;
+   border-radius: 5px;
+   margin-bottom: 20px;
+}
+
+.sidebar-header{
+	color: #241d8e;
+	text-align: center;
+}
